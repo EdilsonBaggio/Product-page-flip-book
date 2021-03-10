@@ -1,0 +1,317 @@
+.bk-cover img{
+  width: 100%;
+  height: 496px;
+}
+
+.page-header{
+  height: 496px;
+}
+
+.detail-book-action .flip-book {
+    margin-top: 5px;
+    white-space: nowrap;
+    float: left;
+    width: auto;
+    position: absolute;
+    background: url(../images/flip-book.png) no-repeat left center;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    line-height: 30px;
+    padding-left: 30px;
+}
+
+.bk-list li .bk-back img {
+    width: 100%;
+}
+
+.fechar {
+    font-size: 20px;
+    background: #fff;
+    padding: 8px;
+    position: absolute;
+    right: 15px;
+    width: 40px;
+    top: 20px;
+    height: 40px;
+    border-radius: 100%;
+    text-transform: uppercase;
+    border: 2px solid #ccc;
+    color: #000;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .livro_box {
+    display: none;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    text-align: center;
+    padding: 40px 35px 40px 35px;
+    transition: 1s;
+  }
+
+  .girar{cursor: pointer;}
+
+  .book-item-capa{
+    width: 32%;
+    float: left;
+    margin-right: 50px;
+  }
+
+  .book-item-detail{
+    width: 60%;
+    height: 500px;
+    float: right;
+    border-left: 2px solid #cdcdcd;
+    padding-left: 80px;
+  }
+
+  .detail-book {
+    float: none;
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    background: #f5f5f5;
+    padding-bottom: 120px;
+    position: relative;
+  }
+
+  .book-2 .bk-left h2 {
+    font-size: 20px;
+    line-height: 40px;
+    padding-right: 10px;
+    text-align: right;
+    position: absolute;
+    top: 36%;
+    bottom: auto;
+  }
+  
+  .flip-book a{
+    color: #000;
+        font-size: 14px;
+        font-family: "Gelasio", sans-serif;
+  }
+
+  section{
+    height: auto;
+    background: #f5f5f5;
+  }
+
+  .product_title {
+    font-family: "Gelasio", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-top: 20px;
+  }
+
+  .book-item-detail span.by-book {
+    font-family: "Gelasio", sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 25px;
+  }
+
+  .book-item-detail span.book-desc {
+    font-family: "Gelasio", serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 32px;
+    line-height: 26px;
+    margin-top: 20px;
+  }
+
+  div.product p.price, .woocommerce div.product span.price {
+    color: #77a464;
+    font-size: 1.25em;
+  }
+
+  .book-item-detail .price {
+    position: relative;
+    min-height: 60px;
+  }
+
+  .book-item-detail .price .amount {
+    font-family: "Gelasio", serif;
+    font-style: normal;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 2em;
+  }
+
+  .book-item-detail span {
+    width: 100%;
+  }
+
+  .book-detail-cart {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .product form.cart {
+    margin-bottom: 2em;
+  }
+
+  .book-item-detail .cart button {
+    background-color: #f07c29;
+    border-radius: 50px;
+    font-family: "Lato", sans-serif;
+    padding: 0 30px 0 30px;
+    height: 40px;
+    text-transform: uppercase;
+    font-size: 1.15385em;
+    color: #fff!important;
+  }
+  .cart .button, .woocommerce .cart input.button {
+    float: none;
+  }
+
+  .button {
+    font-size: 100%;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    padding: .618em 1em;
+    font-weight: 700;
+    border-radius: 3px;
+    left: auto;
+    color: #515151;
+    background-color: #ebe9eb;
+    border: 0;
+    display: inline-block;
+    background-image: none;
+    box-shadow: none;
+    text-shadow: none;
+  }
+
+  .book-desc p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+
+  .book-comp{
+    font-family: 'Source Sans Pro';
+    margin-top: 40px;
+    padding-bottom: 10px;
+  }
+
+  .compartilhar {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .compartilhar ul{
+    width: 100%;
+    height: 53px;
+    padding-left: 0px;
+  }
+
+  .compartilhar ul li {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    list-style: none;
+  }
+
+  .compartilhar ul li img{
+    width: 100%;
+    cursor: pointer;
+  }
+
+
+  .active{
+    color: #C40B39!important;
+  }
+  
+  @media screen and (max-width: 1250px){
+    .social-icons {
+      margin-right: 0%;
+    }
+  }
+
+
+  @media screen and (max-width: 1229px){
+    .social-icons {
+      margin-right: 0%;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+
+    .detail-book {
+      padding-top: 50px;
+    }
+
+    .book-detail-cart {
+      display: inline-grid;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+
+    .book-item-detail {
+      width: 100%;
+      height: 500px;
+      float: right;
+      border-left: 0px solid #cdcdcd;
+      border-top: 2px solid #cdcdcd;
+      padding-left: 0px;
+      margin-top: 50px;
+      text-align: center;
+    }
+
+
+    .book-item-capa {
+      width: 100%;
+      float: left;
+      margin-right: 0px;
+    }
+
+    .bk-cover img {
+      width: 100%;
+      height: 496px;
+    }
+
+  }
+
+
+  @media screen and (max-width: 500px){
+    .book-2 .bk-left h2 {
+      font-size: 15px;
+      line-height: 40px;
+      padding-right: 10px;
+      text-align: right;
+      position: absolute;
+      top: 20%;
+      bottom: auto;
+    }
+
+    .bk-cover img {
+      width: 100%;
+      height: auto;
+    }
+
+  }
+
+  @media screen and (max-width: 320px){
+
+  }
